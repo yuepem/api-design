@@ -15,16 +15,10 @@ const getOneWorkout = (workoutId) => {
 
     return DB.workouts[workoutIndex];
 
-   /*  const workout = DB.workouts.find((workout) => workout.id === workoutId);
-    if (!workout) {
-        return;
-    }
-    return workout; */
-
 }
 
 const createNewWorkout = (newWorkout) => {
-    const isAlreadyAdded = DB.workouts.findIndex(workout => workout.name === newWorkout.name) >= 0;
+    const isAlreadyAdded = DB.workouts.findIndex((workout) => workout.name === newWorkout.name) >= 0;
 
     if (isAlreadyAdded) {
         return;
