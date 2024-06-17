@@ -1,12 +1,32 @@
 const workoutService = require('../services/workoutService');
 
 const getAllWorkouts = (req, res) => {
+    console.log('received GETAll request');
     const allWorkouts = workoutService.getAllWorkouts();
     res.send({ status: "OK", data: allWorkouts });
 };
 const getOneWorkout = (req, res) => {
-    const workout = workoutService.getOneWorkout();
-    res.send('get a workout by id')
+    const workoutId = req.params.workoutId;
+    console.log(workoutId);
+
+    if(!workoutId) {
+        return;
+    }
+
+    // const workout = workoutService.getOneWorkout(workoutId);
+    // initialized it as an empty object
+    let workout;
+    try {
+        workout = workoutService.getOneWorkout(workoutId);
+    } catch (error) {
+        // Handle any errors that may occur in getOneWorkout()
+        console.error('Error getting workout:', error);
+        return res.status(500).send({ status: 'Error', message: 'Failed to get workout' });
+    }
+
+    res.send( {status: "OK!", data: workout});
+   /*  // For testing purposes
+    res.send('received GETOne request'); */
 };
 const createNewWorkout = (req, res) => {
 
@@ -27,12 +47,24 @@ const createNewWorkout = (req, res) => {
     res.status(201).send({ status: "OK", data: createWorkout });
 };
 const updateOneWorkout = (req, res) => {
-    const updatedWorkout = workoutService.updateOneWorkout();
-    res.send('update a workout by id')
+    const workoutId = req.params.workoutId;
+
+    if (!workoutId) {
+        return;
+    }
+
+    const updatedWorkout = workoutService.updateOneWorkout(workoutId, req.body);
+    res.status(204).send({ status: "OK", data: updatedWorkout });
 };
 const deleteOneWorkout = (req, res) => {
-    workoutService.deleteOneWorkout();
-    res.send('delete a workout by id')
+    const workoutId = req.params.workoutId;
+
+    if (!workoutId) {
+        return;
+    }
+
+    workoutService.deleteOneWorkout(workoutId);
+    res.status(204).send( {status: "OK"});
 };
 
 module.exports = {

@@ -4,9 +4,9 @@ const workoutsController = require('../../controllers/workoutController');
 
 const router = express.Router();
 
-router.get('/', workoutsController.getAllWorkouts);
-
 router.get('/:workoutId', workoutsController.getOneWorkout);
+
+router.get('/', workoutsController.getAllWorkouts);
 
 router.post('/', workoutsController.createNewWorkout);
 
