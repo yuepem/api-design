@@ -10,7 +10,7 @@ const getOneWorkout = (workoutId) => {
     const workoutIndex = getWorkoutIndexById(workoutId, DB.workouts);
 
     if (workoutIndex < 0) {
-        return;
+        return null;
     }
 
     return DB.workouts[workoutIndex];
