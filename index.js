@@ -11,6 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
+
 app.use('/api/v1/workouts', v1WorkoutRouter);
 app.use('/api/v1/users', v1UserRouter);
 app.use('/api/v2', v2Router);

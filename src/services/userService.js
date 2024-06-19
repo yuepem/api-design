@@ -21,4 +21,5 @@ const createUser = (newUser) => {
     }
 }
 
+
 module.exports = { createUser };
