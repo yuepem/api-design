@@ -1,6 +1,7 @@
 const DB = require('./db.json');
 const { saveToDatabase, getWorkoutIndexById } = require('./utils');
 
+
 const getAllWorkouts = () => {
     try {
         return DB.workouts;

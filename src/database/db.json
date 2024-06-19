@@ -24,7 +24,6 @@
         "RX Weights: 115lb/75lb"
       ]
     },
-  
     {
       "id": "4a3d9aaa-608c-49a7-a004-66305ad4ab50",
       "name": "Dead Push-Ups",
@@ -86,6 +85,108 @@
       "id": "c85bc73a-dc3c-42e9-927c-b5d08dd3499c",
       "createAt": "6/14/2024, 3:21:02 PM",
       "updateAt": "6/14/2024, 3:21:02 PM"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Demetra",
+      "last_name": "Loch",
+      "email": "dloch0@ycombinator.com",
+      "phone_number": "+380 551 587 2626",
+      "address": "28537 High Crossing Way",
+      "userName": "dloch0",
+      "password": "xB3@sQ~8s>YA"
+    },
+    {
+      "id": 2,
+      "first_name": "Holli",
+      "last_name": "Bastide",
+      "email": "hbastide1@youtube.com",
+      "phone_number": "+66 767 486 6356",
+      "address": "575 Harper Trail",
+      "userName": "hbastide1",
+      "password": "cM5)3\"Bw<VP"
+    },
+    {
+      "id": 3,
+      "first_name": "Randie",
+      "last_name": "Gobeaux",
+      "email": "rgobeaux2@nydailynews.com",
+      "phone_number": "+212 227 584 6994",
+      "address": "40423 Welch Alley",
+      "userName": "rgobeaux2",
+      "password": "mU2$T|U8Wm8KC(_"
+    },
+    {
+      "id": 4,
+      "first_name": "Clarabelle",
+      "last_name": "Cobb",
+      "email": "ccobb3@phpbb.com",
+      "phone_number": "+977 245 397 7248",
+      "address": "7082 Bellgrove Junction",
+      "userName": "ccobb3",
+      "password": "wW5)JOQ5"
+    },
+    {
+      "id": 5,
+      "first_name": "Lockwood",
+      "last_name": "Guerro",
+      "email": "lguerro4@ask.com",
+      "phone_number": "+47 859 548 9292",
+      "address": "97807 Scott Alley",
+      "userName": "lguerro4",
+      "password": "gD2\"}m@k(U0"
+    },
+    {
+      "id": 6,
+      "first_name": "Batsheva",
+      "last_name": "Alvy",
+      "email": "balvy5@canalblog.com",
+      "phone_number": "+385 572 371 0467",
+      "address": "6 Crescent Oaks Drive",
+      "userName": "balvy5",
+      "password": "lI6&}.tZ!P"
+    },
+    {
+      "id": 7,
+      "first_name": "Mikol",
+      "last_name": "Mathe",
+      "email": "mmathe6@usgs.gov",
+      "phone_number": "+55 885 479 1645",
+      "address": "35721 Farragut Center",
+      "userName": "mmathe6",
+      "password": "lX5%SPtosf$w{>db"
+    },
+    {
+      "id": 8,
+      "first_name": "Evonne",
+      "last_name": "Shepstone",
+      "email": "eshepstone7@comcast.net",
+      "phone_number": "+55 760 230 4493",
+      "address": "0983 Melvin Way",
+      "userName": "eshepstone7",
+      "password": "nI7.ld}*"
+    },
+    {
+      "id": 9,
+      "first_name": "Natalina",
+      "last_name": "Kupisz",
+      "email": "nkupisz8@cam.ac.uk",
+      "phone_number": "+86 184 777 9503",
+      "address": "67 Derek Alley",
+      "userName": "nkupisz8",
+      "password": "qV4}/RZ}=6"
+    },
+    {
+      "id": 10,
+      "first_name": "Marylou",
+      "last_name": "John",
+      "email": "mjohn9@admin.ch",
+      "phone_number": "+1 323 476 5106",
+      "address": "1393 Debs Plaza",
+      "userName": "mjohn9",
+      "password": "cX3&@0Wx+U0D="
     }
   ]
 }

@@ -2,6 +2,7 @@ const workout = require('../database/workout');
 
 const { v4: uuid } = require('uuid');
 
+
 const getAllWorkouts = () => {
     try {
         const allWorkouts = workout.getAllWorkouts();
