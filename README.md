@@ -1,9 +1,6 @@
 ## api-design
 This project focuses on designing RESTful APIs using Express.js and Node.js, following a three-layer architecture that includes Router, Controller, and Service components, while also implementing versioning for better API management.
 
-### APIs Architecture
-![architecture:](./public/apiArchitecture.png)
-
 ### Tech-Stacks
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
@@ -16,3 +13,7 @@ This project focuses on designing RESTful APIs using Express.js and Node.js, fol
 * Error Handling
 * Data caching
 * Pagination, sorting, and filtering
+
+### APIs Architecture
+![architecture:](./public/apiArchitecture.png)
+
